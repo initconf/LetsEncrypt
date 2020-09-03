@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2020-09-03-16-27-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1594245514.708032	ChXc52qUy7okwKWi1	152.205.82.224	40669	172.18.236.190	10638	bad_TCP_checksum	-	F	zeek
+1594245519.038591	CtqeHd2QlQKPvfWbTc	152.212.147.104	45624	172.18.236.190	56969	bad_TCP_checksum	-	F	zeek
+1594245522.002179	C4k2mo1no6G1tCaA29	53.247.111.145	17110	172.18.236.190	80	bad_TCP_checksum	-	F	zeek
+1594245522.038295	CI7B9r44DoI5xh7sUc	70.166.60.59	56422	172.18.236.190	80	bad_TCP_checksum	-	F	zeek
+1594245522.039236	CI7B9r44DoI5xh7sUc	70.166.60.59	56422	172.18.236.190	80	active_connection_reuse	-	F	zeek
+1594245522.065319	CqJjI93sIsVvNGJVfb	32.42.222.118	24500	172.18.236.190	80	bad_TCP_checksum	-	F	zeek
+1594245522.434064	CSBLXi1UDqjneHyFNe	32.55.86.77	51008	172.18.236.190	80	bad_TCP_checksum	-	F	zeek
+1594245522.435226	CSBLXi1UDqjneHyFNe	32.55.86.77	51008	172.18.236.190	80	active_connection_reuse	-	F	zeek
+1594245523.002387	C4k2mo1no6G1tCaA29	53.247.111.145	17110	172.18.236.190	80	active_connection_reuse	-	F	zeek
+1594245523.065892	CqJjI93sIsVvNGJVfb	32.42.222.118	24500	172.18.236.190	80	active_connection_reuse	-	F	zeek
+1594245529.202248	C52yLm3HvhrNfL8ib5	59.0.71.185	42999	172.18.236.190	3390	bad_TCP_checksum	-	F	zeek
+#close	2020-09-03-16-27-25

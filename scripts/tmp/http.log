@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-09-03-16-27-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1594245522.084710	CqMftm3qJfL0J7Jpja	70.166.60.59	56422	172.18.236.190	80	1	GET	ipv6cams-ipv4.lbl.gov	/.well-known/acme-challenge/m2TBbyTNFnuxSLXs9nCxPBBvwWjSlPtNqOE6qg1Brtk	-	1.1	Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)	-	0	87	200	OK	-	-	(empty)	-	-	-	-	-	-	FvX6v63akaxDAuOae9	-	text/plain
+1594245522.583997	CTE2AQxQRQTfZiAd	32.55.86.77	51008	172.18.236.190	80	1	GET	ipv6cams-ipv4.lbl.gov	/.well-known/acme-challenge/m2TBbyTNFnuxSLXs9nCxPBBvwWjSlPtNqOE6qg1Brtk	-	1.1	Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)	-	0	87	200	OK	-	-	(empty)	-	-	-	-	-	-	FVYo5C4ahnLadheZ1i	-	text/plain
+#close	2020-09-03-16-27-34

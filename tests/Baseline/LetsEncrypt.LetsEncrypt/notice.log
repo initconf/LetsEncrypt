@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2020-08-26-23-41-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double
+1594245522.084710	CNvMfT3ga61MrF00i4	64.78.149.164	56422	131.243.2.119	80	-	-	-	tcp	LetsEncrypt::ValidationServer	GET http://131.243.2.119/.well-known/acme-challenge/m2TBbyTNFnuxSLXs9nCxPBBvwWjSlPtNqOE6qg1Brtk	-	64.78.149.164	131.243.2.119	80	-	bro	Notice::ACTION_LOG	86400.000000	F	-	-	-	-	-
+1594245522.084710	CNvMfT3ga61MrF00i4	64.78.149.164	56422	131.243.2.119	80	-	-	-	tcp	LetsEncrypt::UserAgent	LetsEncrypt User-agent Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org) seen from 64.78.149.164	-	64.78.149.164	131.243.2.119	80	-	bro	Notice::ACTION_LOG	86400.000000	F	-	-	-	-	-
+1594245522.583997	CmIM9T8zahayfsUxg	52.28.236.88	51008	131.243.2.119	80	-	-	-	tcp	LetsEncrypt::ValidationServer	GET http://131.243.2.119/.well-known/acme-challenge/m2TBbyTNFnuxSLXs9nCxPBBvwWjSlPtNqOE6qg1Brtk	-	52.28.236.88	131.243.2.119	80	-	bro	Notice::ACTION_LOG	86400.000000	F	-	-	-	-	-
+1594245522.583997	CmIM9T8zahayfsUxg	52.28.236.88	51008	131.243.2.119	80	-	-	-	tcp	LetsEncrypt::UserAgent	LetsEncrypt User-agent Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org) seen from 52.28.236.88	-	52.28.236.88	131.243.2.119	80	-	bro	Notice::ACTION_LOG	86400.000000	F	-	-	-	-	-
+#close	2020-08-26-23-41-04
