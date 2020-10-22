@@ -30,10 +30,16 @@ This should generate following Kinds of notices:
 Example notice: 
 ***************************
 
-1) ValidationServer: 
+::
 
+	1) ValidationServer: 
+
+```
 1594245522.084710	CqMftm3qJfL0J7Jpja	70.166.60.59	56422	172.18.236.190	80	-	-	-	tcp	LetsEncrypt::ValidationServer	GET http://172.18.236.190/.well-known/acme-challenge/m2TBbyTNFnuxSLXs9nCxPBBvwWjSlPtNqOE6qg1Brtk	-	70.166.60.59	172.18.236.190	80	-	-	Notice::ACTION_LOG	86400.000000	-	-	--	-
+```			
 
-2) UserAgent 
+	2) UserAgent 
+```
 1594245522.084710	CqMftm3qJfL0J7Jpja	70.166.60.59	56422	172.18.236.190	80	-	-	-	tcp	LetsEncrypt::UserAgent	-	-	70.166.60.59	172.18.236.190	80	-	-	Notice::ACTION_LOG	86400.000000	-	-	-	-	-
+``` 
 
