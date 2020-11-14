@@ -89,10 +89,12 @@ event LetsEncrypt::known_ip (src: addr)
 event LetsEncrypt::add_to_whitelist(ip: addr)
 {
 
-  	local run_cmd = fmt ("/YURT/bin/bro-add-whitelist %s -c \"AUTOMATED ZEEK adding LetsEncrypt IP\"", ip); 
-        log_reporter(fmt ("%s", run_cmd), 21);
- 
-	system(run_cmd); 	
+	# following is LBL central to automatically add to
+	# whitelist 
+
+  	#local run_cmd = fmt ("/YURT/bin/bro-add-whitelist %s -c \"AUTOMATED ZEEK adding LetsEncrypt IP\"", ip); 
+        #log_reporter(fmt ("%s", run_cmd), 21);
+	#system(run_cmd); 	
 	NOTICE([$note=Whitelisted, $src=ip,  $msg=fmt ("LetsEncrypt IP Whitelisted: %s",ip)]);
 
         #when ( local res = Exec::run([$cmd=run_cmd]))
