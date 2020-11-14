@@ -1,4 +1,0 @@
-/YURT/bin/bro-add-whitelist 64.78.149.164 -c "AUTOMATED ZEEK adding LetsEncrypt IP"
-131.243.2.119
-/YURT/bin/bro-add-whitelist 52.28.236.88 -c "AUTOMATED ZEEK adding LetsEncrypt IP"
-131.243.2.119

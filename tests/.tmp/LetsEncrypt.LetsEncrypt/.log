@@ -1,2 +1,0 @@
-zeek -C -r $TRACES/LetsEncrypt.pcap ../../../scripts /Users/aashish/Documents/GitHub/LetsEncrypt/tests/.tmp/LetsEncrypt.LetsEncrypt/LetsEncrypt.zeek (expect success)
-btest-diff notice.log (expect success)
