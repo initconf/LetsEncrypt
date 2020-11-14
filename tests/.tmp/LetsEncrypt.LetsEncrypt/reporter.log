@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2020-11-14-00-07-59
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1594245522.084710	Reporter::INFO	/YURT/bin/bro-add-whitelist 64.78.149.164 -c "AUTOMATED ZEEK adding LetsEncrypt IP"	zeek
+1594245522.583997	Reporter::INFO	/YURT/bin/bro-add-whitelist 52.28.236.88 -c "AUTOMATED ZEEK adding LetsEncrypt IP"	zeek
+#close	2020-11-14-00-07-59

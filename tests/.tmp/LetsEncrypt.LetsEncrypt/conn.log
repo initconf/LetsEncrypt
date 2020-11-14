@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2020-11-14-00-07-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1594245514.708032	CHhAvVGS1DHFjwGM9	185.175.93.17	40669	131.243.2.119	10638	tcp	-	-	-	-	S0	-	-	0	S	1	40	0	0	-
+1594245519.038591	ClEkJM2Vm5giqnMf4h	185.176.27.198	45624	131.243.2.119	56969	tcp	-	-	-	-	S0	-	-	0	S	1	40	0	0	-
+1594245522.002179	C4J4Th3PJpwUYZZ6gc	34.222.229.130	17110	131.243.2.119	80	tcp	-	3.004095	0	0	S0	-	-	0	S	3	180	0	0	-
+1594245522.065319	CUM0KZ3MLUfNB0cl11	52.15.254.228	24500	131.243.2.119	80	tcp	-	3.004566	0	0	S0	-	-	0	S	3	180	0	0	-
+1594245522.038295	CtPZjS20MLrsMUOJi2	64.78.149.164	56422	131.243.2.119	80	tcp	http	0.092605	273	352	SF	-	-	0	ShADadfF	5	493	5	560	-
+1594245522.434064	CmES5u32sYpV7JYN	52.28.236.88	51008	131.243.2.119	80	tcp	http	0.301174	273	352	SF	-	-	0	ShADadfF	5	493	5	560	-
+1594245529.010437	CP5puj4I8PtEU4qzYg	34.222.229.130	17110	131.243.2.119	80	tcp	-	-	-	-	S0	-	-	0	S	1	60	0	0	-
+1594245529.081888	C37jN32gN3y3AZzyf6	52.15.254.228	24500	131.243.2.119	80	tcp	-	-	-	-	S0	-	-	0	S	1	60	0	0	-
+1594245529.202248	C3eiCBGOLw3VtHfOj	45.145.66.65	42999	131.243.2.119	3390	tcp	-	-	-	-	S0	-	-	0	S	1	40	0	0	-
+1594245534.487047	CwjjYJ2WqgTbAqiHl6	128.232.21.75	35959	131.243.2.119	1900	udp	-	-	-	-	S0	-	-	0	D	1	127	0	0	-
+#close	2020-11-14-00-07-59
