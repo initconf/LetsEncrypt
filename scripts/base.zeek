@@ -7,17 +7,16 @@ export {
        		Whitelisted, 
 	} ;
 
+
         global fname= fmt ("%s/feeds/LetsEncrypt.list", @DIR); 
-
         global f=open_for_append(fname); 
-
+	global letsencrypt_feed = fname &redef ;
 	global LetsEncrypt::add_to_whitelist: event(ip: addr); 
 }
 @endif
 
 export {
 
-        global letsencrypt_feed = fname &redef ;
 
         type letsencrypt_ip: record {
                 IP: addr ;
